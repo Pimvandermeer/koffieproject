@@ -1,0 +1,155 @@
+body{
+    background-color: #D7D0C8;
+    font-family: Verdana;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+
+.header {
+  background-color: #2E404C;
+  padding: 20px;
+  text-align: left;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: #D3B965;
+    padding: 16px;
+
+}
+
+.logo{
+  width: 23%;
+  height: auto;
+  float: right;
+  padding: 6px;
+}
+
+
+
+
+
+
+
+.IO_box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  background-color: #656F6F;
+  width: 100%;
+}
+
+#card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: ##656F6F;
+  overflow: auto;
+}
+
+.btn {
+  color: #2E404C !important;
+  text-transform: uppercase;
+  background: #D7D0C8;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+
+}
+
+.btn:hover{
+  background: #FFDF8;
+  color: #95A78D;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.koffie_titel {
+  color: #F87666;
+}
+
+.green {
+  color: #95A78D;
+}
+
+.img {
+  position: relative;
+  width:  150px;
+  height: 150px;
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+
+  .IO_box {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*
+.cup{
+  height: 140px;
+  width: 180px;
+  border: 6px solid #efb54a;
+  position: relative;
+  top:40%;
+  left:40%;
+  border-radius: 0px 0px 70px 70px;
+  background: url(./coffee.png);
+  box-shadow: 0px 0px 0px 6px white;
+  animation: fill 2.5s infinite;
+  background-repeat: repeat-x;
+  background-position: 0px 140px;
+}
+
+@keyframes fill{
+  0%{
+    background-position: 0px 140px;
+  }
+  20%{
+    background-position: -450px 100px;
+  }
+  40%{
+    background-position:  -900px 50px;
+  }
+  80%{
+    background-position: -1350px -40px;
+  }
+  100%{
+    background-position: 0px 140px;
+  }
+
+}
+
+.handle{
+    height: 70px;
+    width: 40px;
+    background-color: transparent;
+    border: 6px solid white;
+    position: relative;
+    left: 186px;
+    top:2px;
+    border-radius: 0px 25px 80px 0px;
+} */
